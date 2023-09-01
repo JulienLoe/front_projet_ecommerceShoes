@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import { DressService } from './dress.service';
+import { DressService } from '../../../dress.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['../../src/styles.scss']
+  templateUrl: './products.component.html',
+  styleUrls: ['../../../../../src/styles.scss']
 })
 export class AppComponent implements OnInit {
   title = 'firstAppAngular';
